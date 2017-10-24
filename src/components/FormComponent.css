@@ -1,0 +1,49 @@
+.form-row {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row label {
+  color: grey;
+  font-size: 14px;
+}
+
+.form-row input, .form-row select {
+  height: 40px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.form-row .error {
+  color: red;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.form-row.buttons {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-top: 20px;
+  border-top: 1px solid lightgrey;
+}
+
+.form-row.buttons button {
+  font-size: 16px;
+  font-weight: bolder;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.form-row.buttons button.add {
+  background-color: #4CAF50;
+}
+
+.form-row.buttons button.clear {
+  background-color: #f44336;;
+}

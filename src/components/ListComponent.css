@@ -1,0 +1,13 @@
+.list table {
+  width: 100%;
+}
+
+.list table thead td{
+  font-weight: bolder;
+}
+
+.list table td {
+  min-width: 50px;
+  font-size: 12px;
+  padding: 3px;
+}
